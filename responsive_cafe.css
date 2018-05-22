@@ -1,0 +1,18 @@
+/* タブレット向け(671~1000px)レイアウト */
+
+@media (max-width: 1000px) {
+	.features-box {
+		width: 50%;
+	}
+}
+
+/* スマートフォン向けレイアウト(670px以下) */
+@media (max-width: 670px) {
+	.features-box {
+		width: 100%;
+	}
+
+	footer {
+		text-align: center;
+	} 
+}
