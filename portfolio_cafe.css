@@ -177,6 +177,7 @@ header {
 
 .shop-image-inner {
 	display: block;
+	width: 80%;
 	opacity: 0.8;
 }
 /* ---------- */
