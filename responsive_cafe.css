@@ -1,3 +1,10 @@
+img {
+width:100%;
+max-width: 100%;
+height: auto;
+}
+
+
 /* タブレット向け(671~1000px)レイアウト */
 
 @media (max-width: 1000px) {
@@ -8,13 +15,41 @@
 
 /* スマートフォン向けレイアウト(670px以下) */
 @media (max-width: 670px) {
+
+	.section-title {
+		font-size: 18px;
+	}
+
+	.header-left {
+		width: 28%;
+	}
+
+	.header-right {
+		display: none;
+	}
+
+	.menu-icon {
+		display: block !important;
+		margin-right: 20px;
+		float: right;
+		font-size: 26px;
+		padding: 20px 0;
+	}
 	
 	.top-section {
 		width: 100%;
 	}
+
+	.top-section-inner {
+		padding-top: 100px;
+	}
 	
 	.catch-copy {
-		font-size: 18px;
+		padding: 0 10px;
+	}
+
+	.catch-copy h1 {
+		font-size: 24px;
 		text-align: left;
 		padding: 0;
 	}
@@ -25,14 +60,94 @@
 	}
 
 	.features-box {
+		display: block;
 		width: 100%;
+		margin: 20px 0;
 	}
 
 	.features-box img {
+		width: 80%;
+	}
+
+	.features-box p {
+		padding-bottom: 50px; 
+	}
+
+	.access-hours-section-left {
+		float: none;
 		width: 100%;
 	}
 
+	.access-hours-section {
+		margin-top: -80px; 
+	}
+
+	.shop-image {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.shop-image-inner {
+		width: 100%;
+	}
+
+	.access-hours-section-right {
+		float: none;
+		width: 80%;
+		margin: 0 auto;
+		line-height: 20px;
+		padding-top: 10px;
+	}
+
+	.access-hours-section-right span,
+	.access-hours-section-right p {
+		font-size: 14px;
+		margin: 0;
+	}
+
+	.access-hours-section-right span {
+		margin-right: 5px; 
+	}
+
+	.follow-us-section {
+		padding: 0;
+	}
+
+	.fab {
+		font-size: 30px;
+		margin: 0 15px;
+	}
+
+	.fa-instagram {
+		font-size: 26px;
+	}
+
+
 	footer {
+
+		padding-top: 60px;
 		text-align: center;
-	} 
+	}
+
+	.footer-logo {
+		margin: 0;
+	}
+
+	.footer-left {
+		float: none;
+		margin: 0 auto;
+		width: 30%;
+	}
+
+	.footer-right {
+		float: none;
+		margin: 0 auto;
+		width: 50%;
+	}
+
+	.copyright {
+		padding-top: 0;
+		text-align: center;
+		font-size: 10px;
+	}
 }
