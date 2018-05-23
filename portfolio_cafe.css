@@ -89,6 +89,8 @@ header {
 .top-section {
 	background-image: url(./coffee.jpg);
 	background-size: cover;
+	padding: 180px 0 100px 0;
+	margin: 0;
 	text-align: center;
 }
 
