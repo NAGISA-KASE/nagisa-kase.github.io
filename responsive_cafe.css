@@ -9,8 +9,12 @@
 /* スマートフォン向けレイアウト(670px以下) */
 @media (max-width: 670px) {
 	
+	.top-section {
+		width: 100%;
+	}
+	
 	.catch-copy {
-		font-size: 24px;
+		font-size: 18px;
 		text-align: left;
 		padding: 0;
 	}
@@ -18,7 +22,7 @@
 	.about-us-section,
 	.access-hours-section {
 		width: 100%;
-}
+	}
 
 	.features-box {
 		width: 100%;
