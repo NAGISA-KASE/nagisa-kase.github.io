@@ -130,8 +130,11 @@ header {
 	width: 30%;
 	padding: 0;
 	margin: 0 5px 0 5px;
-	text-align: center;
 	transition: all .8s;
+}
+
+.features-box p {
+	margin: 0 auto;
 }
 
 
@@ -256,7 +259,6 @@ header {
 
 footer {
 	padding-top: 100px;
-	height: 150px;
 	width: 100%;
 }
 
@@ -296,25 +298,23 @@ footer {
 }
 
 .menu img {
-	height: 300px;
-	width: 40%;
+	width: 42%;
 }
 
 .menu-box {
-	height: 300px;
 	width: 90%;
-	margin: 50px auto;
+	margin: 0 auto;
 }
 
 .lunch-image {
 	float: left;
-	padding: 0 30px;
-	margin-right: 53px;
+	padding: 0;
+	margin-right: 84px;
 }
 
 .dinner-image {
 	float: right;
-	padding: 0 30px;
+	padding: 0;
 }
 
 .menu h5 {
