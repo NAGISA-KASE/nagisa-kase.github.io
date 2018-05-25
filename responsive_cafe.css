@@ -1,21 +1,103 @@
+/* 共通レスポンシブ */
+
 img {
 width:100%;
 max-width: 100%;
 height: auto;
 }
 
+.about-us-section,
+.access-hours-section {
+	width: 100%;
+}
+
 
 /* タブレット向け(671~1000px)レイアウト */
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
+
+	/* タブレット向けトップページ */
+	.header-right a {
+		margin-right: 30px;
+	}
+
+	.top-section {
+		width: 100%;
+	}
+
+	.top-section-inner {
+		padding: 0;
+	}
+
+	.catch-copy {
+		width: 100%;
+		padding: 100px 0 80px 0;
+		font-size: 22px;
+	}
+
 	.features-box {
-		width: 50%;
+		width: 30%;
+	}
+
+	.access-hours-section-left {
+		padding-left: 10px;
+	}
+
+	.access-hours-section-right {
+		line-height: 24px;
+	}
+
+	.tab {
+		display: inline-block;
+	}
+
+	footer {
+		padding: 0 20px;
+	}
+
+
+	/* タブレット向けmenu */
+	.menu img {
+		width: 40%;
+	}
+
+	.menu h5 {
+		font-size: 19px;
+		padding: 10px 0;
+	}
+
+	.lunch {
+		margin-bottom: 10px;
+	}
+
+	.lunch-image,
+	.dinner-image {
+		margin: 0 auto;
+	}
+
+	.menu-list {
+		width: 60%;
+	}
+
+	.menu-list table {
+		margin-top: 10px;
+		padding: 20px 0;
+	}
+
+	.menu-list tr {
+		line-height: 18px;
+		font-size: 14px;
+	}
+
+	.menu-list th {
+		width: 80%;
 	}
 }
 
 /* スマートフォン向けレイアウト(670px以下) */
 @media (max-width: 670px) {
 
+	/* スマートフォン向けトップページ */
 	.section-title {
 		font-size: 18px;
 	}
@@ -47,6 +129,7 @@ height: auto;
 	
 	.catch-copy {
 		padding: 0 10px;
+		padding-bottom: 20px;
 	}
 
 	.catch-copy h1 {
@@ -55,10 +138,7 @@ height: auto;
 		padding: 0;
 	}
 
-	.about-us-section,
-	.access-hours-section {
-		width: 100%;
-	}
+
 
 	.features-box {
 		display: block;
@@ -71,6 +151,8 @@ height: auto;
 	}
 
 	.features-box p {
+		width: 80%;
+		text-align: left;
 		padding-bottom: 50px; 
 	}
 
@@ -125,7 +207,6 @@ height: auto;
 
 
 	footer {
-
 		padding-top: 60px;
 		text-align: center;
 	}
@@ -151,4 +232,52 @@ height: auto;
 		text-align: center;
 		font-size: 10px;
 	}
-}
+
+	/* スマートフォン向けmenu */
+	.menu img {
+		width: 100%;
+	}
+
+	.menu h5 {
+		font-size: 16px;
+		padding-top: 14px;
+	}
+
+	.lunch {
+		margin-bottom: 18px;
+	}
+
+	.lunch-image,
+	.dinner-image {
+		margin: 0 auto;
+	}
+
+	.menu-list {
+		width: 100%;
+	}
+
+	.menu-list tr {
+		line-height: 18px;
+		font-size: 11px;
+	}
+
+	.menu-list th {
+		width: 80%;
+	}
+
+
+	/* スマートフォン向けcontact */
+	.contact-right {
+		width: 100%;
+		padding: 20px 0;
+		font-size: 14px;
+	}
+	.contact-left {
+		width: 100%;
+	}
+
+	.contact-left form {
+		margin: 0;
+		padding: 0;
+	}
+}	
