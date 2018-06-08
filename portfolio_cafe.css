@@ -135,6 +135,7 @@ header {
 
 .features-box p {
 	margin: 0 auto;
+	display: none;
 }
 
 
