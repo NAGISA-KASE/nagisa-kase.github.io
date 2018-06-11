@@ -1,3 +1,8 @@
+/* グーグルフォント　
+font-family: 'Berkshire Swash', cursive;
+font-family: 'Fredericka the Great', cursive; */
+
+
 /* ↓共通CSS　*/
 
 * {
@@ -55,8 +60,16 @@ header {
 
 .header-left {
 	float: left;
-	width: 10%;
+	width: 20%;
 	height: auto;
+}
+
+.header-left a {
+	display: inline-block;
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 40px;
+	line-height: 70px;
+	color: #fff;
 }
 
 .menu-icon {
@@ -78,6 +91,7 @@ header {
 
 
 .header-right a {
+	font-family: 'Berkshire Swash', cursive;
 	float: left;
 	padding: 5px 15px;
 	margin-right: 90px;
@@ -263,9 +277,11 @@ footer {
 	width: 100%;
 }
 
-.footer-logo {
-	margin-top: 84px;
-}
+/*
+	.footer-logo {
+		margin-top: 84px;
+	}
+*/
 
 /*
 	.clear {
@@ -277,6 +293,15 @@ footer {
 	float: left;
 	height: auto;
 	width: 20%;
+	position: relative;
+}
+
+.footer-left a {
+	position: absolute;
+	top: 80px;
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 60px;
+	color: #000;
 }
 
 .footer-right {
