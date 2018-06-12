@@ -3,7 +3,7 @@ font-family: 'Berkshire Swash', cursive;
 font-family: 'Fredericka the Great', cursive; */
 
 
-/* ↓共通CSS　*/
+/* 共通CSSここから　*/
 
 * {
 	box-sizing: border-box;
@@ -36,6 +36,7 @@ a {
 }
 
 .section-title {
+	font-family: 'Fredericka the Great', cursive;
 	font-size: 22px;
 	text-align: center;
 	color: rgb(64, 64, 64);
@@ -44,8 +45,12 @@ a {
 	margin: 20px 0;
 }
 
-/* ↑共通CSS　*/
+.cushion {
+	height: 180px;
+}
 
+/* 共通CSSここまで　*/
+/* ヘッダー */
 header {
 	position: fixed;
 	top: 0;
@@ -76,22 +81,15 @@ header {
 	display: none !important;
 }
 
-.header-left img {
-	margin: 0;
-	padding: 0;
-	height: 70px;
-}
-
 .header-right {
 	float: right;
 	width: 60%;
-	height: auto;
+	height: 70px;
 }
-
-
 
 .header-right a {
 	font-family: 'Berkshire Swash', cursive;
+	font-size: 19px;
 	float: left;
 	padding: 5px 15px;
 	margin-right: 90px;
@@ -105,6 +103,7 @@ header {
 	text-shadow: 0 0 4px #fff;
 }
 
+/* トップ画面 */
 .top-section {
 	background-image: url(./coffee.jpg);
 	background-size: cover;
@@ -119,7 +118,8 @@ header {
 }
 
 .catch-copy {
-
+	/* font-family: 'Berkshire Swash', cursive; */
+	font-family: 'Fredericka the Great', cursive;
 	padding: 180px 100px;
 	font-size: 34px;
 	opacity: 0.6;
@@ -127,6 +127,7 @@ header {
 	text-align: right;
 }
 
+/* メインコンテンツ */
 .about-us-section,
 .access-hours-section {
 	margin: 0 auto;
@@ -231,13 +232,6 @@ header {
 	width: 100%;
 }
 
-.follow-us img {
-	display: inline-block;
-	width: 68px;
-	height: 68px;
-	vertical-align: middle;
-}
-
 .follow-us span {
 	vertical-align: middle;
 }
@@ -247,21 +241,26 @@ header {
 	margin: 0 40px;
 }
 
-.fa-twitter-square {
-	color: rgb(29, 161, 242);
-}
-
-.fa-facebook {
-	color: rgb(59, 89, 152);
-}
-
-.fa-instagram {
-	padding: 1px;
-	font-size: 50px;
-	border-radius: 4px;
+.icon {
 	color: #fff;
-	background-image: linear-gradient(-135deg,#1400c8,#b900b4,#f50000);
+	background-color: #000;
+	border-radius: 100px;
+	padding: 12px 14px;
 }
+
+.fa-facebook-f {
+	padding: 12px 26px;
+}
+
+/*
+	.fa-instagram {
+		padding: 1px;
+		font-size: 50px;
+		border-radius: 4px;
+		color: #fff;
+		background-image: linear-gradient(-135deg,#1400c8,#b900b4,#f50000);
+	}
+*/
 
 .icon:hover {
 	cursor: pointer;
@@ -272,52 +271,42 @@ header {
 	top: 2px;
 }
 
+/* フッター */
 footer {
-	padding-top: 100px;
+	/* padding-top: 100px; */
 	width: 100%;
 }
 
-/*
-	.footer-logo {
-		margin-top: 84px;
-	}
-*/
-
-/*
-	.clear {
-		clear: both;
-	}
-*/
-
 .footer-left {
+	padding-left: 10px;
 	float: left;
-	height: auto;
 	width: 20%;
-	position: relative;
 }
 
 .footer-left a {
-	position: absolute;
-	top: 80px;
 	font-family: 'Fredericka the Great', cursive;
 	font-size: 60px;
 	color: #000;
 }
 
 .footer-right {
-	float: right;
-	height: auto;	
+	float: right;	
 	width: 20%;
 }
 
 .copyright {
-	padding-top: 130px;
+	margin-top: 60px;
 	text-align: right;
 	font-size: 12px;
 
 }
+.clear {
+	clear: both;
+}
+/* !!メインページCSSここまで!! */
 
-/* ↓Menu用CSS */
+
+/* Menuページ用CSSここから */
 .menu-wrapper,
 .contact-wrapper {
 	padding-top: 100px;
@@ -377,9 +366,11 @@ footer {
 .menu-list td {
 	width: 30%;
 }
-/* ↑Menu用CSS */
+/* !!Menuページ用CSSここまで!! */
 
-/* ↓お問い合わせフォーム用CSS */
+
+
+/* お問い合わせフォームページ用CSSここから */
 
 .contactform {
 	height: 500px;
@@ -456,4 +447,4 @@ textarea:focus {
 	margin-right: 8px; 
 	color: rgba(255, 255, 255, 0.8);
 }
-/* ↑お問い合わせフォーム用CSS */
+/* !!お問い合わせフォームページ用CSSここまで!! */
