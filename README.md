@@ -1,3 +1,3 @@
 # nagisa-kase.github.io
-portfolio - Cafe88 HP
+my first portfolio that created by HTML & CSS
 https://nagisa-kase.github.io/
