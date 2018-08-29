@@ -1,4 +1,4 @@
 # nagisa-kase.github.io
-ポートフォリオ（カフェHP）<br>
-HTML/CSS/Java Script
+<h5>ポートフォリオ（カフェHP）</h5>
+<p>HTML/CSS/Java Script</p>
 https://nagisa-kase.github.io/
